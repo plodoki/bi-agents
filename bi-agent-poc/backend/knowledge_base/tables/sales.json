@@ -1,0 +1,107 @@
+{
+    "table_name": "sales",
+    "columns": [
+      {
+        "name": "Invoice ID",
+        "data_type": "TEXT",
+        "sample_values": ["192-98-7397", "242-11-3142", "201-86-2184", "565-17-3836", "853-23-2453"]
+      },
+      {
+        "name": "Branch",
+        "data_type": "TEXT",
+        "sample_values": ["B", "C", "A"]
+      },
+      {
+        "name": "City",
+        "data_type": "TEXT",
+        "sample_values": ["Naypyitaw", "Yangon", "Mandalay"]
+      },
+      {
+        "name": "Customer type",
+        "data_type": "TEXT",
+        "sample_values": ["Member", "Normal"]
+      },
+      {
+        "name": "Gender",
+        "data_type": "TEXT",
+        "sample_values": ["Male", "Female"]
+      },
+      {
+        "name": "Product line",
+        "data_type": "TEXT",
+        "sample_values": ["Fashion accessories", "Home and lifestyle", "Food and beverages", "Health and beauty"]
+      },
+      {
+        "name": "Unit price",
+        "data_type": "FLOAT",
+        "sample_values": [71.77, 81.4, 49.79, 55.07, 89.06],
+        "min_value": 10.08,
+        "max_value": 99.96
+      },
+      {
+        "name": "Quantity",
+        "data_type": "INTEGER",
+        "sample_values": [1, 2, 4, 6, 9],
+        "min_value": 1,
+        "max_value": 10
+      },
+      {
+        "name": "Tax 5%",
+        "data_type": "FLOAT",
+        "sample_values": [3.162, 4.4155, 4.125, 13.2945, 23.094],
+        "min_value": 0.5085,
+        "max_value": 49.65
+      },
+      {
+        "name": "Total",
+        "data_type": "FLOAT",
+        "sample_values": [608.076, 232.155, 627.6165, 22.659, 121.59],
+        "min_value": 10.6785,
+        "max_value": 1042.65
+      },
+      {
+        "name": "Date",
+        "data_type": "TEXT",
+        "sample_values": ["3/14/2019", "3/21/2019", "1/27/2019", "1/13/2019"]
+      },
+      {
+        "name": "Time",
+        "data_type": "TEXT",
+        "sample_values": ["10:49", "14:28", "16:06", "14:36", "19:44"]
+      },
+      {
+        "name": "Payment",
+        "data_type": "TEXT",
+        "sample_values": ["Credit card", "Cash", "Ewallet"]
+      },
+      {
+        "name": "cogs",
+        "data_type": "FLOAT",
+        "sample_values": [38.6, 231.12, 75.82, 83.08, 54.95],
+        "min_value": 10.17,
+        "max_value": 993.0
+      },
+      {
+        "name": "gross margin percentage",
+        "data_type": "FLOAT",
+        "sample_values": [4.761904762],
+        "min_value": 4.761904762,
+        "max_value": 4.761904762
+      },
+      {
+        "name": "gross income",
+        "data_type": "FLOAT",
+        "sample_values": [3.939, 3.0435, 7.278, 8.377, 24.332],
+        "min_value": 0.5085,
+        "max_value": 49.65
+      },
+      {
+        "name": "Rating",
+        "data_type": "FLOAT",
+        "sample_values": [4.3, 8.2, 9.3, 8.8, 9.2],
+        "min_value": 4.0,
+        "max_value": 10.0
+      }
+    ],
+    "table_description": "The 'sales' table contains detailed transactional data from a supermarket with information about invoices, customer demographics, products purchased, sales amounts, tax, payment methods, and customer feedback. It spans January to March 2019 and includes sales data for three branches located in different cities."
+  }
